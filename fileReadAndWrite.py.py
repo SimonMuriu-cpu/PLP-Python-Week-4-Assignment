@@ -17,7 +17,5 @@ def read_and_write_file(file_name, new_file_name, new_content):
         print(f"Error: The file {file_name} was not found.")
     except Exception as e:
         print(f"An error occurred: {e}")
-    finally:
-        file.close()
-        new_file.close()
+
     

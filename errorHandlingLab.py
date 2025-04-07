@@ -11,5 +11,4 @@ def user_input_file():
         print(f"Error: You do not have permission to read the file {file_name}.")
     except Exception as e:
         print(f"An unexpected error occurred: {e}")
-    finally:
-        file.close()
+    
